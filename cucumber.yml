@@ -1,0 +1,8 @@
+## YAML Templatesss
+---
+default: -p ci -p html -p dev
+
+pretty: --format pretty
+ci:  --format progress
+html:  --format html --out=results/report.html
+dev: ENVIRONMENT=dev
